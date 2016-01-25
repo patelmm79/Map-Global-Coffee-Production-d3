@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!--<script src="https://raw.github.com/fryn/html5slider/gh-pages/html5slider.js"></script>-->
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="d3.slider.js"></script>
+  <link rel="stylesheet" href="d3.slider.css" />
+    <style>
+      circle {
+        fill: orange;
+        stroke: black;
+        stroke-width: 0.7;
+        opacity: 0.7;
+      }
+
+      h2 {
+        text-align: center;
+        color: black;
+      }
+
+      div.years_buttons {
+        position: fixed;
+        top: 5px;
+        left: 50px;
+      }
+
+      div.years_buttons div {
+        background-color: rgb(251, 201, 127);
+        padding: 3px;
+        margin: 7px;
+	  
+     .country {fill:#ccc;}	
+
+	  
+	  #slider3 {
+	  margin: 20px 0 10px 20px;
+	  width: 900px;
+      }
+    </style>
+    <script type="text/javascript">  
+      function draw(geo_data) {
+        "use strict";
+        var margin = 75,
+            width = 1400 - margin,
+            height = 600 - margin;
+
+        d3.select("body")
+          .append("h2")
+          .text("World Cup ");
+
+           /* .append('g')
+            .attr('class', 'map');*/
+
+      
+
+		var projection = d3.geo.mercator().translate([0, 0]).scale(width / 2 / Math.PI);
+		var path = d3.geo.path().projection(projection);
+
+		var svg = d3.select("body").append("svg").attr("width", width + margin)
+            .attr("height", height + margin)
+
+        var outterg = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+        var g = outterg.append("g").attr("id", "innerg");
+
+
+        g.append("path").attr("d", path);
+  	    var topo = topojson.feature(geo_data, geo_data.objects.countries).features
+		var country = d3.select("#innerg").selectAll(".country").data(topo);
+		
+	  country.enter().insert("path").attr("class", "country")
+      .attr("d", path)
+      .attr("id", function(d,i) { return d.id; })
+	  
+      .attr("title", function(d,i) { return d.properties.name; })
+      .style("fill", "lightBlue")
+      .style("stroke", "#111")
+      ;
+
+			
+	  var split = [10, 20, 40, 60, 200, 300, 400, 700];
+	  var colors = ["#F7FBFF","#DEEBF7","#C6DBEF","#9ECAE1","#6BAED6","#4292C6","#2171B5","#08519C","#08306B"];
+	  var color = d3.scale.linear().domain([7, 25]).range(["#F7FBFF", "#08306B"]);
+	/*  var color = d3.scale.threshold()
+		  .domain(split)
+		  .range(colors);         */
+	
+	
+
+        function plot_points(data) {
+		
+			  function update(year) {
+           
+			
+              d3.select("h2")
+                .text("World Cup " + year);
+			
+			
+			  var filtered=data.filter(function(d) {if ( d['Year'] == year){return d;}})
+			
+			
+			  var ProductionByID=d3.map();
+			  
+			  filtered.forEach(function(f) {
+					ProductionByID.set(f['ID'],f['Production']);
+					});
+			
+			  
+			 
+			  
+			  var countryset = d3.set();
+
+    
+					filtered.forEach(function(d) {
+                    countryset.add(d['ID']);});
+
+			
+			  
+			  
+			  country.attr("class", "country")
+					  .attr("d", path)
+					  .attr("id", function(d,i) { return d.id; })
+					  
+					  .attr("title", function(d,i) { return d.properties.name; })
+					  .attr("production", function(d){
+							 if(countryset.values().indexOf(d.properties.iso) !== -1) {
+							 return ProductionByID.get(d.properties.iso);}
+							 else {return 0}})
+					  .style("fill", function(d){
+							 if(countryset.values().indexOf(d.properties.iso) !== -1) {
+							 return color(ProductionByID.get(d.properties.iso));}
+							 else {return color(0)}})
+					  /*.style("stroke", "#111")*/;
+
+              /*var countries = filtered[0].values['teams'];
+
+              function update_countries(d) {
+                  if(countries.indexOf(d.properties.name) !== -1) {append
+                      return "lightBlue";
+                  } else {
+                      return 'white';
+                  }
+              }
+
+              svg.selectAll('path')
+                 .transition()
+                 .duration(500)
+                 .style('fill', update_countries)
+                 .style('stroke', update_countries);*/
+
+          }
+
+          var year_idx = 0;
+		  	
+			d3.select('#slider3').call(d3.slider()
+    .axis(true).min(1990).max(2014).step(1)
+	.on("slide", function( evt,value) { 
+             /*d3.select("h2")
+                .text("World Cup" + value);*/
+				update(value);}));}
+
+				/*d3.tsv("CoffeeProductionByCountry.csv", plot_points);*/
+		  d3.csv("coffeeproductionbycountry_unpivoted.csv",function(d)
+		  {  
+		  return d},plot_points);
+    };
+    </script>
+  </head>
+<body>
+  <!--input id="slider" type="range" min="2000" max="2011" value="2000" step="1" >-->
+  <div id="slider3"></div>
+  <script type="text/javascript">
+  /*
+    Use D3 to load the GeoJSON file
+    */
+    
+d3.json("world-110m-cia.json", draw);
+
+  </script>
+</body>
+</html>

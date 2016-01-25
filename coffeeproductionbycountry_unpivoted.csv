@@ -1,0 +1,1401 @@
+Country,ID,Year,Production
+Angola,AGO,1990,50
+Angola,AGO,1991,79
+Angola,AGO,1992,78
+Angola,AGO,1993,33
+Angola,AGO,1994,77
+Angola,AGO,1995,62
+Angola,AGO,1996,71
+Angola,AGO,1997,64
+Angola,AGO,1998,85
+Angola,AGO,1999,55
+Angola,AGO,2000,50
+Angola,AGO,2001,21
+Angola,AGO,2002,57
+Angola,AGO,2003,38
+Angola,AGO,2004,15
+Angola,AGO,2005,25
+Angola,AGO,2006,35
+Angola,AGO,2007,36
+Angola,AGO,2008,38
+Angola,AGO,2009,13
+Angola,AGO,2010,35
+Angola,AGO,2011,29
+Angola,AGO,2012,33
+Angola,AGO,2013,35
+Angola,AGO,2014,39
+Bolivia,BOL,1990,123
+Bolivia,BOL,1991,107
+Bolivia,BOL,1992,123
+Bolivia,BOL,1993,57
+Bolivia,BOL,1994,122
+Bolivia,BOL,1995,152
+Bolivia,BOL,1996,133
+Bolivia,BOL,1997,153
+Bolivia,BOL,1998,150
+Bolivia,BOL,1999,184
+Bolivia,BOL,2000,173
+Bolivia,BOL,2001,118
+Bolivia,BOL,2002,149
+Bolivia,BOL,2003,125
+Bolivia,BOL,2004,170
+Bolivia,BOL,2005,129
+Bolivia,BOL,2006,164
+Bolivia,BOL,2007,133
+Bolivia,BOL,2008,135
+Bolivia,BOL,2009,142
+Bolivia,BOL,2010,130
+Bolivia,BOL,2011,143
+Bolivia,BOL,2012,115
+Bolivia,BOL,2013,128
+Bolivia,BOL,2014,106
+Brazil,BRA,1990,27286
+Brazil,BRA,1991,27293
+Brazil,BRA,1992,34603
+Brazil,BRA,1993,28167
+Brazil,BRA,1994,28192
+Brazil,BRA,1995,18060
+Brazil,BRA,1996,29197
+Brazil,BRA,1997,26148
+Brazil,BRA,1998,36761
+Brazil,BRA,1999,47578
+Brazil,BRA,2000,31310
+Brazil,BRA,2001,31365
+Brazil,BRA,2002,48480
+Brazil,BRA,2003,28820
+Brazil,BRA,2004,39272
+Brazil,BRA,2005,32944
+Brazil,BRA,2006,42512
+Brazil,BRA,2007,36070
+Brazil,BRA,2008,45992
+Brazil,BRA,2009,39470
+Brazil,BRA,2010,48095
+Brazil,BRA,2011,43484
+Brazil,BRA,2012,50826
+Brazil,BRA,2013,49152
+Brazil,BRA,2014,45342
+Burundi,BDI,1990,487
+Burundi,BDI,1991,667
+Burundi,BDI,1992,620
+Burundi,BDI,1993,393
+Burundi,BDI,1994,664
+Burundi,BDI,1995,434
+Burundi,BDI,1996,401
+Burundi,BDI,1997,250
+Burundi,BDI,1998,492
+Burundi,BDI,1999,351
+Burundi,BDI,2000,487
+Burundi,BDI,2001,144
+Burundi,BDI,2002,454
+Burundi,BDI,2003,338
+Burundi,BDI,2004,437
+Burundi,BDI,2005,103
+Burundi,BDI,2006,499
+Burundi,BDI,2007,133
+Burundi,BDI,2008,412
+Burundi,BDI,2009,112
+Burundi,BDI,2010,353
+Burundi,BDI,2011,204
+Burundi,BDI,2012,406
+Burundi,BDI,2013,163
+Burundi,BDI,2014,252
+Ecuador,ECU,1990,1504
+Ecuador,ECU,1991,2124
+Ecuador,ECU,1992,1185
+Ecuador,ECU,1993,2069
+Ecuador,ECU,1994,2376
+Ecuador,ECU,1995,1888
+Ecuador,ECU,1996,1993
+Ecuador,ECU,1997,1191
+Ecuador,ECU,1998,1206
+Ecuador,ECU,1999,1198
+Ecuador,ECU,2000,854
+Ecuador,ECU,2001,793
+Ecuador,ECU,2002,582
+Ecuador,ECU,2003,641
+Ecuador,ECU,2004,780
+Ecuador,ECU,2005,935
+Ecuador,ECU,2006,1035
+Ecuador,ECU,2007,950
+Ecuador,ECU,2008,771
+Ecuador,ECU,2009,813
+Ecuador,ECU,2010,854
+Ecuador,ECU,2011,825
+Ecuador,ECU,2012,828
+Ecuador,ECU,2013,666
+Ecuador,ECU,2014,644
+Indonesia,IDN,1990,7441
+Indonesia,IDN,1991,8493
+Indonesia,IDN,1992,5569
+Indonesia,IDN,1993,6743
+Indonesia,IDN,1994,5368
+Indonesia,IDN,1995,4573
+Indonesia,IDN,1996,8221
+Indonesia,IDN,1997,7621
+Indonesia,IDN,1998,7296
+Indonesia,IDN,1999,6557
+Indonesia,IDN,2000,6987
+Indonesia,IDN,2001,6833
+Indonesia,IDN,2002,6731
+Indonesia,IDN,2003,6404
+Indonesia,IDN,2004,7536
+Indonesia,IDN,2005,9159
+Indonesia,IDN,2006,7483
+Indonesia,IDN,2007,7777
+Indonesia,IDN,2008,9612
+Indonesia,IDN,2009,11380
+Indonesia,IDN,2010,9129
+Indonesia,IDN,2011,7288
+Indonesia,IDN,2012,13048
+Indonesia,IDN,2013,11667
+Indonesia,IDN,2014,9350
+Madagascar,MDG,1990,982
+Madagascar,MDG,1991,933
+Madagascar,MDG,1992,1122
+Madagascar,MDG,1993,442
+Madagascar,MDG,1994,641
+Madagascar,MDG,1995,785
+Madagascar,MDG,1996,849
+Madagascar,MDG,1997,624
+Madagascar,MDG,1998,992
+Madagascar,MDG,1999,427
+Madagascar,MDG,2000,362
+Madagascar,MDG,2001,147
+Madagascar,MDG,2002,445
+Madagascar,MDG,2003,435
+Madagascar,MDG,2004,522
+Madagascar,MDG,2005,599
+Madagascar,MDG,2006,587
+Madagascar,MDG,2007,614
+Madagascar,MDG,2008,728
+Madagascar,MDG,2009,457
+Madagascar,MDG,2010,530
+Madagascar,MDG,2011,585
+Madagascar,MDG,2012,500
+Madagascar,MDG,2013,588
+Madagascar,MDG,2014,518
+Malawi,MWI,1990,105
+Malawi,MWI,1991,124
+Malawi,MWI,1992,137
+Malawi,MWI,1993,62
+Malawi,MWI,1994,84
+Malawi,MWI,1995,91
+Malawi,MWI,1996,49
+Malawi,MWI,1997,61
+Malawi,MWI,1998,64
+Malawi,MWI,1999,59
+Malawi,MWI,2000,63
+Malawi,MWI,2001,60
+Malawi,MWI,2002,42
+Malawi,MWI,2003,48
+Malawi,MWI,2004,21
+Malawi,MWI,2005,24
+Malawi,MWI,2006,17
+Malawi,MWI,2007,19
+Malawi,MWI,2008,21
+Malawi,MWI,2009,17
+Malawi,MWI,2010,17
+Malawi,MWI,2011,26
+Malawi,MWI,2012,23
+Malawi,MWI,2013,27
+Malawi,MWI,2014,16
+Papua New Guinea,PNG,1990,963
+Papua New Guinea,PNG,1991,747
+Papua New Guinea,PNG,1992,900
+Papua New Guinea,PNG,1993,1019
+Papua New Guinea,PNG,1994,1139
+Papua New Guinea,PNG,1995,1002
+Papua New Guinea,PNG,1996,1089
+Papua New Guinea,PNG,1997,1074
+Papua New Guinea,PNG,1998,1352
+Papua New Guinea,PNG,1999,1387
+Papua New Guinea,PNG,2000,1041
+Papua New Guinea,PNG,2001,1063
+Papua New Guinea,PNG,2002,1085
+Papua New Guinea,PNG,2003,1155
+Papua New Guinea,PNG,2004,998
+Papua New Guinea,PNG,2005,1268
+Papua New Guinea,PNG,2006,807
+Papua New Guinea,PNG,2007,968
+Papua New Guinea,PNG,2008,1028
+Papua New Guinea,PNG,2009,1038
+Papua New Guinea,PNG,2010,870
+Papua New Guinea,PNG,2011,1414
+Papua New Guinea,PNG,2012,717
+Papua New Guinea,PNG,2013,828
+Papua New Guinea,PNG,2014,798
+Paraguay,PRY,1990,131
+Paraguay,PRY,1991,80
+Paraguay,PRY,1992,54
+Paraguay,PRY,1993,70
+Paraguay,PRY,1994,25
+Paraguay,PRY,1995,23
+Paraguay,PRY,1996,26
+Paraguay,PRY,1997,23
+Paraguay,PRY,1998,58
+Paraguay,PRY,1999,20
+Paraguay,PRY,2000,42
+Paraguay,PRY,2001,20
+Paraguay,PRY,2002,26
+Paraguay,PRY,2003,52
+Paraguay,PRY,2004,26
+Paraguay,PRY,2005,45
+Paraguay,PRY,2006,20
+Paraguay,PRY,2007,28
+Paraguay,PRY,2008,21
+Paraguay,PRY,2009,20
+Paraguay,PRY,2010,20
+Paraguay,PRY,2011,21
+Paraguay,PRY,2012,22
+Paraguay,PRY,2013,20
+Paraguay,PRY,2014,20
+Peru,PER,1990,937
+Peru,PER,1991,1200
+Peru,PER,1992,1762
+Peru,PER,1993,665
+Peru,PER,1994,1179
+Peru,PER,1995,1871
+Peru,PER,1996,1806
+Peru,PER,1997,1930
+Peru,PER,1998,2102
+Peru,PER,1999,2744
+Peru,PER,2000,2676
+Peru,PER,2001,2829
+Peru,PER,2002,3000
+Peru,PER,2003,2686
+Peru,PER,2004,3425
+Peru,PER,2005,2489
+Peru,PER,2006,4319
+Peru,PER,2007,3063
+Peru,PER,2008,3872
+Peru,PER,2009,3286
+Peru,PER,2010,4069
+Peru,PER,2011,5373
+Peru,PER,2012,4453
+Peru,PER,2013,4338
+Peru,PER,2014,2883
+Rwanda,RWA,1990,535
+Rwanda,RWA,1991,484
+Rwanda,RWA,1992,639
+Rwanda,RWA,1993,444
+Rwanda,RWA,1994,22
+Rwanda,RWA,1995,329
+Rwanda,RWA,1996,293
+Rwanda,RWA,1997,193
+Rwanda,RWA,1998,223
+Rwanda,RWA,1999,307
+Rwanda,RWA,2000,273
+Rwanda,RWA,2001,296
+Rwanda,RWA,2002,320
+Rwanda,RWA,2003,266
+Rwanda,RWA,2004,450
+Rwanda,RWA,2005,337
+Rwanda,RWA,2006,351
+Rwanda,RWA,2007,224
+Rwanda,RWA,2008,369
+Rwanda,RWA,2009,259
+Rwanda,RWA,2010,323
+Rwanda,RWA,2011,251
+Rwanda,RWA,2012,259
+Rwanda,RWA,2013,254
+Rwanda,RWA,2014,258
+Timor-Leste,TLS,1990,0
+Timor-Leste,TLS,1991,0
+Timor-Leste,TLS,1992,0
+Timor-Leste,TLS,1993,0
+Timor-Leste,TLS,1994,0
+Timor-Leste,TLS,1995,0
+Timor-Leste,TLS,1996,0
+Timor-Leste,TLS,1997,0
+Timor-Leste,TLS,1998,0
+Timor-Leste,TLS,1999,0
+Timor-Leste,TLS,2000,7
+Timor-Leste,TLS,2001,33
+Timor-Leste,TLS,2002,37
+Timor-Leste,TLS,2003,42
+Timor-Leste,TLS,2004,17
+Timor-Leste,TLS,2005,24
+Timor-Leste,TLS,2006,46
+Timor-Leste,TLS,2007,36
+Timor-Leste,TLS,2008,48
+Timor-Leste,TLS,2009,47
+Timor-Leste,TLS,2010,60
+Timor-Leste,TLS,2011,50
+Timor-Leste,TLS,2012,59
+Timor-Leste,TLS,2013,79
+Timor-Leste,TLS,2014,104
+Zimbabwe,ZWE,1990,252
+Zimbabwe,ZWE,1991,201
+Zimbabwe,ZWE,1992,78
+Zimbabwe,ZWE,1993,12
+Zimbabwe,ZWE,1994,106
+Zimbabwe,ZWE,1995,131
+Zimbabwe,ZWE,1996,174
+Zimbabwe,ZWE,1997,130
+Zimbabwe,ZWE,1998,149
+Zimbabwe,ZWE,1999,125
+Zimbabwe,ZWE,2000,109
+Zimbabwe,ZWE,2001,121
+Zimbabwe,ZWE,2002,110
+Zimbabwe,ZWE,2003,92
+Zimbabwe,ZWE,2004,120
+Zimbabwe,ZWE,2005,66
+Zimbabwe,ZWE,2006,45
+Zimbabwe,ZWE,2007,31
+Zimbabwe,ZWE,2008,24
+Zimbabwe,ZWE,2009,21
+Zimbabwe,ZWE,2010,10
+Zimbabwe,ZWE,2011,9
+Zimbabwe,ZWE,2012,7
+Zimbabwe,ZWE,2013,8
+Zimbabwe,ZWE,2014,12
+Congo,COG,1990,3
+Congo,COG,1991,3
+Congo,COG,1992,3
+Congo,COG,1993,3
+Congo,COG,1994,8
+Congo,COG,1995,12
+Congo,COG,1996,14
+Congo,COG,1997,3
+Congo,COG,1998,3
+Congo,COG,1999,3
+Congo,COG,2000,3
+Congo,COG,2001,3
+Congo,COG,2002,3
+Congo,COG,2003,3
+Congo,COG,2004,3
+Congo,COG,2005,3
+Congo,COG,2006,3
+Congo,COG,2007,3
+Congo,COG,2008,3
+Congo,COG,2009,3
+Congo,COG,2010,3
+Congo,COG,2011,3
+Congo,COG,2012,3
+Congo,COG,2013,3
+Congo,COG,2014,3
+Cuba,CUB,1990,414
+Cuba,CUB,1991,302
+Cuba,CUB,1992,284
+Cuba,CUB,1993,285
+Cuba,CUB,1994,284
+Cuba,CUB,1995,285
+Cuba,CUB,1996,366
+Cuba,CUB,1997,300
+Cuba,CUB,1998,280
+Cuba,CUB,1999,328
+Cuba,CUB,2000,312
+Cuba,CUB,2001,285
+Cuba,CUB,2002,239
+Cuba,CUB,2003,224
+Cuba,CUB,2004,180
+Cuba,CUB,2005,100
+Cuba,CUB,2006,105
+Cuba,CUB,2007,110
+Cuba,CUB,2008,133
+Cuba,CUB,2009,92
+Cuba,CUB,2010,108
+Cuba,CUB,2011,100
+Cuba,CUB,2012,88
+Cuba,CUB,2013,107
+Cuba,CUB,2014,100
+Dominican Republic,DOM,1990,880
+Dominican Republic,DOM,1991,321
+Dominican Republic,DOM,1992,638
+Dominican Republic,DOM,1993,604
+Dominican Republic,DOM,1994,730
+Dominican Republic,DOM,1995,886
+Dominican Republic,DOM,1996,519
+Dominican Republic,DOM,1997,941
+Dominican Republic,DOM,1998,487
+Dominican Republic,DOM,1999,607
+Dominican Republic,DOM,2000,467
+Dominican Republic,DOM,2001,387
+Dominican Republic,DOM,2002,455
+Dominican Republic,DOM,2003,351
+Dominican Republic,DOM,2004,491
+Dominican Republic,DOM,2005,310
+Dominican Republic,DOM,2006,387
+Dominican Republic,DOM,2007,465
+Dominican Republic,DOM,2008,645
+Dominican Republic,DOM,2009,352
+Dominican Republic,DOM,2010,378
+Dominican Republic,DOM,2011,491
+Dominican Republic,DOM,2012,488
+Dominican Republic,DOM,2013,425
+Dominican Republic,DOM,2014,400
+Haiti,HTI,1990,393
+Haiti,HTI,1991,463
+Haiti,HTI,1992,500
+Haiti,HTI,1993,451
+Haiti,HTI,1994,450
+Haiti,HTI,1995,514
+Haiti,HTI,1996,428
+Haiti,HTI,1997,432
+Haiti,HTI,1998,439
+Haiti,HTI,1999,399
+Haiti,HTI,2000,420
+Haiti,HTI,2001,403
+Haiti,HTI,2002,374
+Haiti,HTI,2003,374
+Haiti,HTI,2004,365
+Haiti,HTI,2005,356
+Haiti,HTI,2006,362
+Haiti,HTI,2007,359
+Haiti,HTI,2008,359
+Haiti,HTI,2009,351
+Haiti,HTI,2010,350
+Haiti,HTI,2011,349
+Haiti,HTI,2012,350
+Haiti,HTI,2013,345
+Haiti,HTI,2014,350
+Philippines,PHL,1990,974
+Philippines,PHL,1991,1018
+Philippines,PHL,1992,920
+Philippines,PHL,1993,875
+Philippines,PHL,1994,877
+Philippines,PHL,1995,850
+Philippines,PHL,1996,890
+Philippines,PHL,1997,935
+Philippines,PHL,1998,677
+Philippines,PHL,1999,622
+Philippines,PHL,2000,341
+Philippines,PHL,2001,263
+Philippines,PHL,2002,255
+Philippines,PHL,2003,293
+Philippines,PHL,2004,355
+Philippines,PHL,2005,432
+Philippines,PHL,2006,441
+Philippines,PHL,2007,446
+Philippines,PHL,2008,587
+Philippines,PHL,2009,730
+Philippines,PHL,2010,189
+Philippines,PHL,2011,180
+Philippines,PHL,2012,177
+Philippines,PHL,2013,186
+Philippines,PHL,2014,200
+Tanzania,TZA,1990,932
+Tanzania,TZA,1991,790
+Tanzania,TZA,1992,786
+Tanzania,TZA,1993,734
+Tanzania,TZA,1994,679
+Tanzania,TZA,1995,897
+Tanzania,TZA,1996,764
+Tanzania,TZA,1997,624
+Tanzania,TZA,1998,739
+Tanzania,TZA,1999,842
+Tanzania,TZA,2000,809
+Tanzania,TZA,2001,624
+Tanzania,TZA,2002,824
+Tanzania,TZA,2003,612
+Tanzania,TZA,2004,763
+Tanzania,TZA,2005,804
+Tanzania,TZA,2006,822
+Tanzania,TZA,2007,810
+Tanzania,TZA,2008,1186
+Tanzania,TZA,2009,675
+Tanzania,TZA,2010,846
+Tanzania,TZA,2011,544
+Tanzania,TZA,2012,1109
+Tanzania,TZA,2013,809
+Tanzania,TZA,2014,1030
+Zambia,ZMB,1990,23
+Zambia,ZMB,1991,29
+Zambia,ZMB,1992,29
+Zambia,ZMB,1993,27
+Zambia,ZMB,1994,21
+Zambia,ZMB,1995,26
+Zambia,ZMB,1996,33
+Zambia,ZMB,1997,38
+Zambia,ZMB,1998,62
+Zambia,ZMB,1999,59
+Zambia,ZMB,2000,93
+Zambia,ZMB,2001,100
+Zambia,ZMB,2002,119
+Zambia,ZMB,2003,100
+Zambia,ZMB,2004,110
+Zambia,ZMB,2005,103
+Zambia,ZMB,2006,56
+Zambia,ZMB,2007,61
+Zambia,ZMB,2008,35
+Zambia,ZMB,2009,28
+Zambia,ZMB,2010,13
+Zambia,ZMB,2011,11
+Zambia,ZMB,2012,5
+Zambia,ZMB,2013,11
+Zambia,ZMB,2014,3
+Benin,BEN,1990,0
+Benin,BEN,1991,0
+Benin,BEN,1992,2
+Benin,BEN,1993,0
+Benin,BEN,1994,0
+Benin,BEN,1995,0
+Benin,BEN,1996,0
+Benin,BEN,1997,0
+Benin,BEN,1998,0
+Benin,BEN,1999,0
+Benin,BEN,2000,0
+Benin,BEN,2001,0
+Benin,BEN,2002,0
+Benin,BEN,2003,0
+Benin,BEN,2004,0
+Benin,BEN,2005,0
+Benin,BEN,2006,0
+Benin,BEN,2007,0
+Benin,BEN,2008,0
+Benin,BEN,2009,0
+Benin,BEN,2010,0
+Benin,BEN,2011,0
+Benin,BEN,2012,0
+Benin,BEN,2013,0
+Benin,BEN,2014,0
+Cameroon,CMR,1990,1682
+Cameroon,CMR,1991,1726
+Cameroon,CMR,1992,260
+Cameroon,CMR,1993,683
+Cameroon,CMR,1994,406
+Cameroon,CMR,1995,660
+Cameroon,CMR,1996,1432
+Cameroon,CMR,1997,889
+Cameroon,CMR,1998,1114
+Cameroon,CMR,1999,1370
+Cameroon,CMR,2000,1113
+Cameroon,CMR,2001,686
+Cameroon,CMR,2002,801
+Cameroon,CMR,2003,900
+Cameroon,CMR,2004,727
+Cameroon,CMR,2005,870
+Cameroon,CMR,2006,818
+Cameroon,CMR,2007,795
+Cameroon,CMR,2008,725
+Cameroon,CMR,2009,902
+Cameroon,CMR,2010,503
+Cameroon,CMR,2011,574
+Cameroon,CMR,2012,366
+Cameroon,CMR,2013,413
+Cameroon,CMR,2014,475
+Central African Republic,CAF,1990,175
+Central African Republic,CAF,1991,125
+Central African Republic,CAF,1992,134
+Central African Republic,CAF,1993,166
+Central African Republic,CAF,1994,250
+Central African Republic,CAF,1995,108
+Central African Republic,CAF,1996,208
+Central African Republic,CAF,1997,114
+Central African Republic,CAF,1998,215
+Central African Republic,CAF,1999,241
+Central African Republic,CAF,2000,113
+Central African Republic,CAF,2001,68
+Central African Republic,CAF,2002,92
+Central African Republic,CAF,2003,43
+Central African Republic,CAF,2004,29
+Central African Republic,CAF,2005,23
+Central African Republic,CAF,2006,114
+Central African Republic,CAF,2007,43
+Central African Republic,CAF,2008,60
+Central African Republic,CAF,2009,112
+Central African Republic,CAF,2010,78
+Central African Republic,CAF,2011,91
+Central African Republic,CAF,2012,23
+Central African Republic,CAF,2013,90
+Central African Republic,CAF,2014,95
+Colombia,COL,1990,14268
+Colombia,COL,1991,17815
+Colombia,COL,1992,15189
+Colombia,COL,1993,10298
+Colombia,COL,1994,12862
+Colombia,COL,1995,12963
+Colombia,COL,1996,10719
+Colombia,COL,1997,12219
+Colombia,COL,1998,10979
+Colombia,COL,1999,9679
+Colombia,COL,2000,10400
+Colombia,COL,2001,11962
+Colombia,COL,2002,11735
+Colombia,COL,2003,11230
+Colombia,COL,2004,11573
+Colombia,COL,2005,12564
+Colombia,COL,2006,11775
+Colombia,COL,2007,12516
+Colombia,COL,2008,8664
+Colombia,COL,2009,8098
+Colombia,COL,2010,8523
+Colombia,COL,2011,7652
+Colombia,COL,2012,9927
+Colombia,COL,2013,12124
+Colombia,COL,2014,12500
+Congo Dem. Rep. of,COD,1990,1580
+Congo Dem. Rep. of,COD,1991,1230
+Congo Dem. Rep. of,COD,1992,1180
+Congo Dem. Rep. of,COD,1993,980
+Congo Dem. Rep. of,COD,1994,1298
+Congo Dem. Rep. of,COD,1995,1098
+Congo Dem. Rep. of,COD,1996,795
+Congo Dem. Rep. of,COD,1997,811
+Congo Dem. Rep. of,COD,1998,738
+Congo Dem. Rep. of,COD,1999,477
+Congo Dem. Rep. of,COD,2000,363
+Congo Dem. Rep. of,COD,2001,423
+Congo Dem. Rep. of,COD,2002,338
+Congo Dem. Rep. of,COD,2003,451
+Congo Dem. Rep. of,COD,2004,360
+Congo Dem. Rep. of,COD,2005,336
+Congo Dem. Rep. of,COD,2006,378
+Congo Dem. Rep. of,COD,2007,416
+Congo Dem. Rep. of,COD,2008,422
+Congo Dem. Rep. of,COD,2009,346
+Congo Dem. Rep. of,COD,2010,305
+Congo Dem. Rep. of,COD,2011,357
+Congo Dem. Rep. of,COD,2012,334
+Congo Dem. Rep. of,COD,2013,347
+Congo Dem. Rep. of,COD,2014,335
+Costa Rica,CRI,1990,2562
+Costa Rica,CRI,1991,2760
+Costa Rica,CRI,1992,2998
+Costa Rica,CRI,1993,2259
+Costa Rica,CRI,1994,2496
+Costa Rica,CRI,1995,2684
+Costa Rica,CRI,1996,2126
+Costa Rica,CRI,1997,2500
+Costa Rica,CRI,1998,2293
+Costa Rica,CRI,1999,2409
+Costa Rica,CRI,2000,2293
+Costa Rica,CRI,2001,2127
+Costa Rica,CRI,2002,1893
+Costa Rica,CRI,2003,1783
+Costa Rica,CRI,2004,1887
+Costa Rica,CRI,2005,1778
+Costa Rica,CRI,2006,1580
+Costa Rica,CRI,2007,1771
+Costa Rica,CRI,2008,1287
+Costa Rica,CRI,2009,1304
+Costa Rica,CRI,2010,1392
+Costa Rica,CRI,2011,1462
+Costa Rica,CRI,2012,1571
+Costa Rica,CRI,2013,1444
+Costa Rica,CRI,2014,1508
+Côte d'Ivoire,CIV,1990,2940
+Côte d'Ivoire,CIV,1991,4129
+Côte d'Ivoire,CIV,1992,2246
+Côte d'Ivoire,CIV,1993,2293
+Côte d'Ivoire,CIV,1994,3006
+Côte d'Ivoire,CIV,1995,2532
+Côte d'Ivoire,CIV,1996,4859
+Côte d'Ivoire,CIV,1997,4164
+Côte d'Ivoire,CIV,1998,1992
+Côte d'Ivoire,CIV,1999,6320
+Côte d'Ivoire,CIV,2000,4846
+Côte d'Ivoire,CIV,2001,3595
+Côte d'Ivoire,CIV,2002,3145
+Côte d'Ivoire,CIV,2003,2689
+Côte d'Ivoire,CIV,2004,2268
+Côte d'Ivoire,CIV,2005,1691
+Côte d'Ivoire,CIV,2006,2177
+Côte d'Ivoire,CIV,2007,2317
+Côte d'Ivoire,CIV,2008,2397
+Côte d'Ivoire,CIV,2009,1795
+Côte d'Ivoire,CIV,2010,982
+Côte d'Ivoire,CIV,2011,1966
+Côte d'Ivoire,CIV,2012,2072
+Côte d'Ivoire,CIV,2013,2107
+Côte d'Ivoire,CIV,2014,2175
+El Salvador,SLV,1990,2465
+El Salvador,SLV,1991,2198
+El Salvador,SLV,1992,3001
+El Salvador,SLV,1993,2378
+El Salvador,SLV,1994,2293
+El Salvador,SLV,1995,2585
+El Salvador,SLV,1996,2534
+El Salvador,SLV,1997,2175
+El Salvador,SLV,1998,2055
+El Salvador,SLV,1999,2598
+El Salvador,SLV,2000,1704
+El Salvador,SLV,2001,1694
+El Salvador,SLV,2002,1361
+El Salvador,SLV,2003,1380
+El Salvador,SLV,2004,1319
+El Salvador,SLV,2005,1374
+El Salvador,SLV,2006,1235
+El Salvador,SLV,2007,1505
+El Salvador,SLV,2008,1410
+El Salvador,SLV,2009,1065
+El Salvador,SLV,2010,1814
+El Salvador,SLV,2011,1152
+El Salvador,SLV,2012,1235
+El Salvador,SLV,2013,537
+El Salvador,SLV,2014,680
+Equatorial Guinea,GNQ,1990,4
+Equatorial Guinea,GNQ,1991,3
+Equatorial Guinea,GNQ,1992,2
+Equatorial Guinea,GNQ,1993,0
+Equatorial Guinea,GNQ,1994,3
+Equatorial Guinea,GNQ,1995,2
+Equatorial Guinea,GNQ,1996,1
+Equatorial Guinea,GNQ,1997,2
+Equatorial Guinea,GNQ,1998,1
+Equatorial Guinea,GNQ,1999,0
+Equatorial Guinea,GNQ,2000,0
+Equatorial Guinea,GNQ,2001,0
+Equatorial Guinea,GNQ,2002,0
+Equatorial Guinea,GNQ,2003,0
+Equatorial Guinea,GNQ,2004,0
+Equatorial Guinea,GNQ,2005,0
+Equatorial Guinea,GNQ,2006,0
+Equatorial Guinea,GNQ,2007,0
+Equatorial Guinea,GNQ,2008,0
+Equatorial Guinea,GNQ,2009,0
+Equatorial Guinea,GNQ,2010,0
+Equatorial Guinea,GNQ,2011,0
+Equatorial Guinea,GNQ,2012,0
+Equatorial Guinea,GNQ,2013,0
+Equatorial Guinea,GNQ,2014,0
+Ethiopia,ETH,1990,2909
+Ethiopia,ETH,1991,2925
+Ethiopia,ETH,1992,1825
+Ethiopia,ETH,1993,2967
+Ethiopia,ETH,1994,2763
+Ethiopia,ETH,1995,3165
+Ethiopia,ETH,1996,3407
+Ethiopia,ETH,1997,3057
+Ethiopia,ETH,1998,2928
+Ethiopia,ETH,1999,3784
+Ethiopia,ETH,2000,3115
+Ethiopia,ETH,2001,4044
+Ethiopia,ETH,2002,4094
+Ethiopia,ETH,2003,4394
+Ethiopia,ETH,2004,5213
+Ethiopia,ETH,2005,4779
+Ethiopia,ETH,2006,5551
+Ethiopia,ETH,2007,5967
+Ethiopia,ETH,2008,4949
+Ethiopia,ETH,2009,6931
+Ethiopia,ETH,2010,7500
+Ethiopia,ETH,2011,6798
+Ethiopia,ETH,2012,6233
+Ethiopia,ETH,2013,6527
+Ethiopia,ETH,2014,6625
+Gabon,GAB,1990,3
+Gabon,GAB,1991,2
+Gabon,GAB,1992,3
+Gabon,GAB,1993,3
+Gabon,GAB,1994,8
+Gabon,GAB,1995,2
+Gabon,GAB,1996,1
+Gabon,GAB,1997,3
+Gabon,GAB,1998,4
+Gabon,GAB,1999,2
+Gabon,GAB,2000,0
+Gabon,GAB,2001,1
+Gabon,GAB,2002,1
+Gabon,GAB,2003,0
+Gabon,GAB,2004,0
+Gabon,GAB,2005,1
+Gabon,GAB,2006,1
+Gabon,GAB,2007,1
+Gabon,GAB,2008,2
+Gabon,GAB,2009,0
+Gabon,GAB,2010,2
+Gabon,GAB,2011,1
+Gabon,GAB,2012,1
+Gabon,GAB,2013,0
+Gabon,GAB,2014,1
+Ghana,GHA,1990,38
+Ghana,GHA,1991,76
+Ghana,GHA,1992,37
+Ghana,GHA,1993,45
+Ghana,GHA,1994,57
+Ghana,GHA,1995,57
+Ghana,GHA,1996,32
+Ghana,GHA,1997,27
+Ghana,GHA,1998,54
+Ghana,GHA,1999,89
+Ghana,GHA,2000,76
+Ghana,GHA,2001,7
+Ghana,GHA,2002,34
+Ghana,GHA,2003,18
+Ghana,GHA,2004,18
+Ghana,GHA,2005,12
+Ghana,GHA,2006,20
+Ghana,GHA,2007,35
+Ghana,GHA,2008,26
+Ghana,GHA,2009,37
+Ghana,GHA,2010,92
+Ghana,GHA,2011,94
+Ghana,GHA,2012,82
+Ghana,GHA,2013,45
+Ghana,GHA,2014,40
+Guatemala,GTM,1990,3271
+Guatemala,GTM,1991,3497
+Guatemala,GTM,1992,4318
+Guatemala,GTM,1993,3536
+Guatemala,GTM,1994,3787
+Guatemala,GTM,1995,4002
+Guatemala,GTM,1996,4525
+Guatemala,GTM,1997,4219
+Guatemala,GTM,1998,4893
+Guatemala,GTM,1999,5120
+Guatemala,GTM,2000,4940
+Guatemala,GTM,2001,3669
+Guatemala,GTM,2002,4070
+Guatemala,GTM,2003,3610
+Guatemala,GTM,2004,3703
+Guatemala,GTM,2005,3676
+Guatemala,GTM,2006,3950
+Guatemala,GTM,2007,4100
+Guatemala,GTM,2008,3785
+Guatemala,GTM,2009,3835
+Guatemala,GTM,2010,3950
+Guatemala,GTM,2011,3840
+Guatemala,GTM,2012,3743
+Guatemala,GTM,2013,3159
+Guatemala,GTM,2014,3500
+Guinea,GIN,1990,44
+Guinea,GIN,1991,91
+Guinea,GIN,1992,76
+Guinea,GIN,1993,64
+Guinea,GIN,1994,198
+Guinea,GIN,1995,104
+Guinea,GIN,1996,148
+Guinea,GIN,1997,172
+Guinea,GIN,1998,421
+Guinea,GIN,1999,364
+Guinea,GIN,2000,400
+Guinea,GIN,2001,236
+Guinea,GIN,2002,328
+Guinea,GIN,2003,366
+Guinea,GIN,2004,316
+Guinea,GIN,2005,525
+Guinea,GIN,2006,473
+Guinea,GIN,2007,323
+Guinea,GIN,2008,505
+Guinea,GIN,2009,499
+Guinea,GIN,2010,386
+Guinea,GIN,2011,385
+Guinea,GIN,2012,233
+Guinea,GIN,2013,158
+Guinea,GIN,2014,150
+Guyana,GUY,1990,0
+Guyana,GUY,1991,0
+Guyana,GUY,1992,0
+Guyana,GUY,1993,0
+Guyana,GUY,1994,0
+Guyana,GUY,1995,0
+Guyana,GUY,1996,0
+Guyana,GUY,1997,0
+Guyana,GUY,1998,1
+Guyana,GUY,1999,1
+Guyana,GUY,2000,1
+Guyana,GUY,2001,1
+Guyana,GUY,2002,1
+Guyana,GUY,2003,1
+Guyana,GUY,2004,1
+Guyana,GUY,2005,1
+Guyana,GUY,2006,2
+Guyana,GUY,2007,2
+Guyana,GUY,2008,1
+Guyana,GUY,2009,1
+Guyana,GUY,2010,1
+Guyana,GUY,2011,1
+Guyana,GUY,2012,1
+Guyana,GUY,2013,1
+Guyana,GUY,2014,1
+Honduras,HND,1990,1568
+Honduras,HND,1991,2322
+Honduras,HND,1992,1918
+Honduras,HND,1993,1829
+Honduras,HND,1994,2181
+Honduras,HND,1995,1909
+Honduras,HND,1996,2004
+Honduras,HND,1997,2564
+Honduras,HND,1998,2195
+Honduras,HND,1999,2985
+Honduras,HND,2000,2667
+Honduras,HND,2001,3036
+Honduras,HND,2002,2496
+Honduras,HND,2003,2968
+Honduras,HND,2004,2575
+Honduras,HND,2005,3204
+Honduras,HND,2006,3461
+Honduras,HND,2007,3640
+Honduras,HND,2008,3450
+Honduras,HND,2009,3603
+Honduras,HND,2010,4331
+Honduras,HND,2011,5903
+Honduras,HND,2012,4537
+Honduras,HND,2013,4568
+Honduras,HND,2014,5400
+India,IND,1990,2829
+India,IND,1991,3000
+India,IND,1992,2823
+India,IND,1993,3533
+India,IND,1994,3002
+India,IND,1995,3717
+India,IND,1996,3417
+India,IND,1997,3805
+India,IND,1998,4417
+India,IND,1999,4867
+India,IND,2000,4370
+India,IND,2001,4604
+India,IND,2002,4776
+India,IND,2003,5534
+India,IND,2004,4159
+India,IND,2005,4090
+India,IND,2006,4563
+India,IND,2007,4319
+India,IND,2008,3950
+India,IND,2009,4806
+India,IND,2010,4728
+India,IND,2011,4921
+India,IND,2012,4977
+India,IND,2013,5075
+India,IND,2014,5517
+Jamaica,JAM,1990,23
+Jamaica,JAM,1991,39
+Jamaica,JAM,1992,26
+Jamaica,JAM,1993,34
+Jamaica,JAM,1994,45
+Jamaica,JAM,1995,43
+Jamaica,JAM,1996,54
+Jamaica,JAM,1997,47
+Jamaica,JAM,1998,29
+Jamaica,JAM,1999,38
+Jamaica,JAM,2000,37
+Jamaica,JAM,2001,31
+Jamaica,JAM,2002,37
+Jamaica,JAM,2003,37
+Jamaica,JAM,2004,21
+Jamaica,JAM,2005,34
+Jamaica,JAM,2006,40
+Jamaica,JAM,2007,20
+Jamaica,JAM,2008,32
+Jamaica,JAM,2009,25
+Jamaica,JAM,2010,21
+Jamaica,JAM,2011,24
+Jamaica,JAM,2012,24
+Jamaica,JAM,2013,20
+Jamaica,JAM,2014,20
+Kenya,KEN,1990,1485
+Kenya,KEN,1991,1514
+Kenya,KEN,1992,1316
+Kenya,KEN,1993,1328
+Kenya,KEN,1994,1663
+Kenya,KEN,1995,1664
+Kenya,KEN,1996,1247
+Kenya,KEN,1997,882
+Kenya,KEN,1998,1173
+Kenya,KEN,1999,1502
+Kenya,KEN,2000,1002
+Kenya,KEN,2001,991
+Kenya,KEN,2002,945
+Kenya,KEN,2003,673
+Kenya,KEN,2004,736
+Kenya,KEN,2005,660
+Kenya,KEN,2006,826
+Kenya,KEN,2007,652
+Kenya,KEN,2008,541
+Kenya,KEN,2009,630
+Kenya,KEN,2010,641
+Kenya,KEN,2011,757
+Kenya,KEN,2012,875
+Kenya,KEN,2013,838
+Kenya,KEN,2014,850
+Lao People's Dem. Rep. of,LAO,1990,0
+Lao People's Dem. Rep. of,LAO,1991,0
+Lao People's Dem. Rep. of,LAO,1992,0
+Lao People's Dem. Rep. of,LAO,1993,0
+Lao People's Dem. Rep. of,LAO,1994,0
+Lao People's Dem. Rep. of,LAO,1995,0
+Lao People's Dem. Rep. of,LAO,1996,0
+Lao People's Dem. Rep. of,LAO,1997,0
+Lao People's Dem. Rep. of,LAO,1998,171
+Lao People's Dem. Rep. of,LAO,1999,239
+Lao People's Dem. Rep. of,LAO,2000,212
+Lao People's Dem. Rep. of,LAO,2001,258
+Lao People's Dem. Rep. of,LAO,2002,402
+Lao People's Dem. Rep. of,LAO,2003,361
+Lao People's Dem. Rep. of,LAO,2004,379
+Lao People's Dem. Rep. of,LAO,2005,280
+Lao People's Dem. Rep. of,LAO,2006,391
+Lao People's Dem. Rep. of,LAO,2007,393
+Lao People's Dem. Rep. of,LAO,2008,406
+Lao People's Dem. Rep. of,LAO,2009,434
+Lao People's Dem. Rep. of,LAO,2010,544
+Lao People's Dem. Rep. of,LAO,2011,512
+Lao People's Dem. Rep. of,LAO,2012,542
+Lao People's Dem. Rep. of,LAO,2013,544
+Lao People's Dem. Rep. of,LAO,2014,500
+Liberia,LBR,1990,3
+Liberia,LBR,1991,3
+Liberia,LBR,1992,3
+Liberia,LBR,1993,5
+Liberia,LBR,1994,5
+Liberia,LBR,1995,5
+Liberia,LBR,1996,5
+Liberia,LBR,1997,5
+Liberia,LBR,1998,18
+Liberia,LBR,1999,12
+Liberia,LBR,2000,12
+Liberia,LBR,2001,12
+Liberia,LBR,2002,12
+Liberia,LBR,2003,5
+Liberia,LBR,2004,6
+Liberia,LBR,2005,5
+Liberia,LBR,2006,7
+Liberia,LBR,2007,7
+Liberia,LBR,2008,12
+Liberia,LBR,2009,13
+Liberia,LBR,2010,10
+Liberia,LBR,2011,10
+Liberia,LBR,2012,10
+Liberia,LBR,2013,6
+Liberia,LBR,2014,10
+Mexico,MEX,1990,4674
+Mexico,MEX,1991,4727
+Mexico,MEX,1992,3401
+Mexico,MEX,1993,5023
+Mexico,MEX,1994,4159
+Mexico,MEX,1995,5300
+Mexico,MEX,1996,5110
+Mexico,MEX,1997,4802
+Mexico,MEX,1998,4801
+Mexico,MEX,1999,6219
+Mexico,MEX,2000,4815
+Mexico,MEX,2001,4438
+Mexico,MEX,2002,4351
+Mexico,MEX,2003,4201
+Mexico,MEX,2004,3867
+Mexico,MEX,2005,4225
+Mexico,MEX,2006,4200
+Mexico,MEX,2007,4150
+Mexico,MEX,2008,4651
+Mexico,MEX,2009,4109
+Mexico,MEX,2010,4001
+Mexico,MEX,2011,4563
+Mexico,MEX,2012,4327
+Mexico,MEX,2013,3916
+Mexico,MEX,2014,3900
+Nepal,NPL,1990,0
+Nepal,NPL,1991,0
+Nepal,NPL,1992,0
+Nepal,NPL,1993,0
+Nepal,NPL,1994,0
+Nepal,NPL,1995,0
+Nepal,NPL,1996,0
+Nepal,NPL,1997,0
+Nepal,NPL,1998,0
+Nepal,NPL,1999,0
+Nepal,NPL,2000,0
+Nepal,NPL,2001,0
+Nepal,NPL,2002,0
+Nepal,NPL,2003,1
+Nepal,NPL,2004,1
+Nepal,NPL,2005,1
+Nepal,NPL,2006,2
+Nepal,NPL,2007,1
+Nepal,NPL,2008,1
+Nepal,NPL,2009,1
+Nepal,NPL,2010,3
+Nepal,NPL,2011,2
+Nepal,NPL,2012,2
+Nepal,NPL,2013,1
+Nepal,NPL,2014,2
+Nicaragua,NIC,1990,461
+Nicaragua,NIC,1991,707
+Nicaragua,NIC,1992,547
+Nicaragua,NIC,1993,706
+Nicaragua,NIC,1994,683
+Nicaragua,NIC,1995,985
+Nicaragua,NIC,1996,793
+Nicaragua,NIC,1997,1084
+Nicaragua,NIC,1998,1073
+Nicaragua,NIC,1999,1554
+Nicaragua,NIC,2000,1572
+Nicaragua,NIC,2001,1079
+Nicaragua,NIC,2002,1170
+Nicaragua,NIC,2003,1509
+Nicaragua,NIC,2004,1068
+Nicaragua,NIC,2005,1432
+Nicaragua,NIC,2006,1428
+Nicaragua,NIC,2007,1906
+Nicaragua,NIC,2008,1445
+Nicaragua,NIC,2009,1871
+Nicaragua,NIC,2010,1638
+Nicaragua,NIC,2011,2193
+Nicaragua,NIC,2012,1991
+Nicaragua,NIC,2013,1941
+Nicaragua,NIC,2014,2050
+Nigeria,NGA,1990,29
+Nigeria,NGA,1991,44
+Nigeria,NGA,1992,49
+Nigeria,NGA,1993,45
+Nigeria,NGA,1994,52
+Nigeria,NGA,1995,53
+Nigeria,NGA,1996,46
+Nigeria,NGA,1997,45
+Nigeria,NGA,1998,53
+Nigeria,NGA,1999,45
+Nigeria,NGA,2000,49
+Nigeria,NGA,2001,44
+Nigeria,NGA,2002,50
+Nigeria,NGA,2003,46
+Nigeria,NGA,2004,45
+Nigeria,NGA,2005,69
+Nigeria,NGA,2006,51
+Nigeria,NGA,2007,42
+Nigeria,NGA,2008,50
+Nigeria,NGA,2009,34
+Nigeria,NGA,2010,42
+Nigeria,NGA,2011,47
+Nigeria,NGA,2012,41
+Nigeria,NGA,2013,41
+Nigeria,NGA,2014,40
+Panama,PAN,1990,215
+Panama,PAN,1991,193
+Panama,PAN,1992,197
+Panama,PAN,1993,142
+Panama,PAN,1994,248
+Panama,PAN,1995,209
+Panama,PAN,1996,211
+Panama,PAN,1997,217
+Panama,PAN,1998,192
+Panama,PAN,1999,166
+Panama,PAN,2000,170
+Panama,PAN,2001,160
+Panama,PAN,2002,140
+Panama,PAN,2003,172
+Panama,PAN,2004,90
+Panama,PAN,2005,176
+Panama,PAN,2006,173
+Panama,PAN,2007,176
+Panama,PAN,2008,149
+Panama,PAN,2009,138
+Panama,PAN,2010,114
+Panama,PAN,2011,106
+Panama,PAN,2012,116
+Panama,PAN,2013,110
+Panama,PAN,2014,95
+Sierra Leone,SLE,1990,43
+Sierra Leone,SLE,1991,54
+Sierra Leone,SLE,1992,39
+Sierra Leone,SLE,1993,37
+Sierra Leone,SLE,1994,73
+Sierra Leone,SLE,1995,44
+Sierra Leone,SLE,1996,41
+Sierra Leone,SLE,1997,50
+Sierra Leone,SLE,1998,27
+Sierra Leone,SLE,1999,59
+Sierra Leone,SLE,2000,49
+Sierra Leone,SLE,2001,79
+Sierra Leone,SLE,2002,42
+Sierra Leone,SLE,2003,36
+Sierra Leone,SLE,2004,15
+Sierra Leone,SLE,2005,60
+Sierra Leone,SLE,2006,31
+Sierra Leone,SLE,2007,40
+Sierra Leone,SLE,2008,86
+Sierra Leone,SLE,2009,91
+Sierra Leone,SLE,2010,33
+Sierra Leone,SLE,2011,78
+Sierra Leone,SLE,2012,61
+Sierra Leone,SLE,2013,32
+Sierra Leone,SLE,2014,50
+Sri Lanka,LKA,1990,96
+Sri Lanka,LKA,1991,82
+Sri Lanka,LKA,1992,53
+Sri Lanka,LKA,1993,54
+Sri Lanka,LKA,1994,42
+Sri Lanka,LKA,1995,36
+Sri Lanka,LKA,1996,37
+Sri Lanka,LKA,1997,58
+Sri Lanka,LKA,1998,46
+Sri Lanka,LKA,1999,32
+Sri Lanka,LKA,2000,33
+Sri Lanka,LKA,2001,32
+Sri Lanka,LKA,2002,34
+Sri Lanka,LKA,2003,37
+Sri Lanka,LKA,2004,32
+Sri Lanka,LKA,2005,35
+Sri Lanka,LKA,2006,33
+Sri Lanka,LKA,2007,33
+Sri Lanka,LKA,2008,31
+Sri Lanka,LKA,2009,32
+Sri Lanka,LKA,2010,37
+Sri Lanka,LKA,2011,36
+Sri Lanka,LKA,2012,35
+Sri Lanka,LKA,2013,36
+Sri Lanka,LKA,2014,36
+Thailand,THA,1990,757
+Thailand,THA,1991,1469
+Thailand,THA,1992,1255
+Thailand,THA,1993,1275
+Thailand,THA,1994,1399
+Thailand,THA,1995,1317
+Thailand,THA,1996,1404
+Thailand,THA,1997,1293
+Thailand,THA,1998,916
+Thailand,THA,1999,1273
+Thailand,THA,2000,1692
+Thailand,THA,2001,715
+Thailand,THA,2002,732
+Thailand,THA,2003,827
+Thailand,THA,2004,884
+Thailand,THA,2005,1064
+Thailand,THA,2006,822
+Thailand,THA,2007,650
+Thailand,THA,2008,675
+Thailand,THA,2009,795
+Thailand,THA,2010,828
+Thailand,THA,2011,831
+Thailand,THA,2012,608
+Thailand,THA,2013,638
+Thailand,THA,2014,494
+Togo,TGO,1990,161
+Togo,TGO,1991,433
+Togo,TGO,1992,86
+Togo,TGO,1993,195
+Togo,TGO,1994,176
+Togo,TGO,1995,84
+Togo,TGO,1996,291
+Togo,TGO,1997,221
+Togo,TGO,1998,321
+Togo,TGO,1999,263
+Togo,TGO,2000,197
+Togo,TGO,2001,112
+Togo,TGO,2002,68
+Togo,TGO,2003,144
+Togo,TGO,2004,166
+Togo,TGO,2005,140
+Togo,TGO,2006,134
+Togo,TGO,2007,125
+Togo,TGO,2008,138
+Togo,TGO,2009,202
+Togo,TGO,2010,160
+Togo,TGO,2011,162
+Togo,TGO,2012,78
+Togo,TGO,2013,135
+Togo,TGO,2014,100
+Trinidad & Tobago,TTO,1990,15
+Trinidad & Tobago,TTO,1991,18
+Trinidad & Tobago,TTO,1992,14
+Trinidad & Tobago,TTO,1993,16
+Trinidad & Tobago,TTO,1994,18
+Trinidad & Tobago,TTO,1995,18
+Trinidad & Tobago,TTO,1996,18
+Trinidad & Tobago,TTO,1997,19
+Trinidad & Tobago,TTO,1998,17
+Trinidad & Tobago,TTO,1999,17
+Trinidad & Tobago,TTO,2000,16
+Trinidad & Tobago,TTO,2001,16
+Trinidad & Tobago,TTO,2002,17
+Trinidad & Tobago,TTO,2003,16
+Trinidad & Tobago,TTO,2004,15
+Trinidad & Tobago,TTO,2005,15
+Trinidad & Tobago,TTO,2006,12
+Trinidad & Tobago,TTO,2007,12
+Trinidad & Tobago,TTO,2008,11
+Trinidad & Tobago,TTO,2009,11
+Trinidad & Tobago,TTO,2010,10
+Trinidad & Tobago,TTO,2011,11
+Trinidad & Tobago,TTO,2012,12
+Trinidad & Tobago,TTO,2013,12
+Trinidad & Tobago,TTO,2014,10
+Uganda,UGA,1990,1955
+Uganda,UGA,1991,2088
+Uganda,UGA,1992,2185
+Uganda,UGA,1993,3142
+Uganda,UGA,1994,2393
+Uganda,UGA,1995,3244
+Uganda,UGA,1996,3419
+Uganda,UGA,1997,3440
+Uganda,UGA,1998,3386
+Uganda,UGA,1999,2862
+Uganda,UGA,2000,3401
+Uganda,UGA,2001,3158
+Uganda,UGA,2002,2890
+Uganda,UGA,2003,2599
+Uganda,UGA,2004,2593
+Uganda,UGA,2005,2160
+Uganda,UGA,2006,2859
+Uganda,UGA,2007,3454
+Uganda,UGA,2008,3300
+Uganda,UGA,2009,2860
+Uganda,UGA,2010,3223
+Uganda,UGA,2011,3075
+Uganda,UGA,2012,3878
+Uganda,UGA,2013,3602
+Uganda,UGA,2014,3800
+Venezuela,VEN,1990,1122
+Venezuela,VEN,1991,941
+Venezuela,VEN,1992,1215
+Venezuela,VEN,1993,1333
+Venezuela,VEN,1994,989
+Venezuela,VEN,1995,1467
+Venezuela,VEN,1996,1206
+Venezuela,VEN,1997,951
+Venezuela,VEN,1998,1597
+Venezuela,VEN,1999,1367
+Venezuela,VEN,2000,1450
+Venezuela,VEN,2001,1265
+Venezuela,VEN,2002,1484
+Venezuela,VEN,2003,1421
+Venezuela,VEN,2004,1327
+Venezuela,VEN,2005,1506
+Venezuela,VEN,2006,1571
+Venezuela,VEN,2007,1520
+Venezuela,VEN,2008,932
+Venezuela,VEN,2009,1214
+Venezuela,VEN,2010,1202
+Venezuela,VEN,2011,902
+Venezuela,VEN,2012,952
+Venezuela,VEN,2013,805
+Venezuela,VEN,2014,660
+Vietnam,VNM,1990,1310
+Vietnam,VNM,1991,1438
+Vietnam,VNM,1992,2340
+Vietnam,VNM,1993,3020
+Vietnam,VNM,1994,3632
+Vietnam,VNM,1995,3970
+Vietnam,VNM,1996,5752
+Vietnam,VNM,1997,6979
+Vietnam,VNM,1998,7052
+Vietnam,VNM,1999,11631
+Vietnam,VNM,2000,14841
+Vietnam,VNM,2001,13093
+Vietnam,VNM,2002,11574
+Vietnam,VNM,2003,15337
+Vietnam,VNM,2004,14370
+Vietnam,VNM,2005,13842
+Vietnam,VNM,2006,19340
+Vietnam,VNM,2007,16405
+Vietnam,VNM,2008,18438
+Vietnam,VNM,2009,17825
+Vietnam,VNM,2010,20000
+Vietnam,VNM,2011,26500
+Vietnam,VNM,2012,25000
+Vietnam,VNM,2013,27500
+Vietnam,VNM,2014,27500
+Yemen,YEM,1990,0
+Yemen,YEM,1991,0
+Yemen,YEM,1992,0
+Yemen,YEM,1993,0
+Yemen,YEM,1994,0
+Yemen,YEM,1995,0
+Yemen,YEM,1996,0
+Yemen,YEM,1997,0
+Yemen,YEM,1998,69
+Yemen,YEM,1999,61
+Yemen,YEM,2000,64
+Yemen,YEM,2001,62
+Yemen,YEM,2002,57
+Yemen,YEM,2003,193
+Yemen,YEM,2004,206
+Yemen,YEM,2005,203
+Yemen,YEM,2006,207
+Yemen,YEM,2007,198
+Yemen,YEM,2008,220
+Yemen,YEM,2009,135
+Yemen,YEM,2010,161
+Yemen,YEM,2011,185
+Yemen,YEM,2012,190
+Yemen,YEM,2013,191
+Yemen,YEM,2014,185
