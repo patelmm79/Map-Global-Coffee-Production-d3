@@ -26,3 +26,4 @@ http://www.ico.org/historical/1990%20onwards/Excel/1a%20-%20Total%20production.x
   https://volumelabs.net/making-maps-with-d3/ : reference for how to filter then feed coffee production data 
 into Choropleth
 ** https://github.com/mbostock/d3/wiki/Arrays: reference for array data management
+** http://thematicmapping.org/playground/d3/d3.slider/ D3 slider guidance

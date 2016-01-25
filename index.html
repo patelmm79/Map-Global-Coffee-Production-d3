@@ -2,24 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!--<script src="https://raw.github.com/fryn/html5slider/gh-pages/html5slider.js"></script>-->
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="d3.slider.js"></script>
   <link rel="stylesheet" href="d3.slider.css" />
     <style>
-      circle {
-        fill: orange;
-        stroke: black;
-        stroke-width: 0.7;
-        opacity: 0.7;
-      }
+ 
 
       h2 {
         text-align: center;
         color: black;
+		margin-top: 1cm;
+	    font-family: 'Raleway', sans-serif;
       }
 
       div.years_buttons {
@@ -37,20 +35,21 @@
 
 	  
 	  #slider3 {
-	  margin: 20px 0 10px 20px;
-	  width: 900px;
+	  margin: 60px 0 10px 60px;
+	  width: 5em;
       }
     </style>
     <script type="text/javascript">  
       function draw(geo_data) {
         "use strict";
         var margin = 75,
-            width = 1400 - margin,
-            height = 600 - margin;
+            width = 1200 - margin,
+            height = 500 - margin;
 
         d3.select("body")
           .append("h2")
-          .text("World Coffee Production 1990");
+          .text("World Coffee Production by Country 1990")
+	
 
            /* .append('g')
             .attr('class', 'map');*/
@@ -100,12 +99,12 @@
 			
 			  
 			  var color = d3.scale.log().domain([1, production_max]).range(
-			  ["#F7FBFF", "#08306B"]);
+			  ["white", "#08306B"]);
 			  function update(year) {
            
 			
               d3.select("h2")
-                .text("World Coffee Production " + year);
+                .text("World Coffee Production by Country " + year);
 			
 			
 			  var filtered=data.filter(function(d) {if ( d['Year'] == year){return d;}})
