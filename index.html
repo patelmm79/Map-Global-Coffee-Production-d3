@@ -50,7 +50,7 @@
 
         d3.select("body")
           .append("h2")
-          .text("World Cup ");
+          .text("World Coffee Production 1990");
 
            /* .append('g')
             .attr('class', 'map');*/
@@ -77,14 +77,14 @@
       .attr("id", function(d,i) { return d.id; })
 	  
       .attr("title", function(d,i) { return d.properties.name; })
-      .style("fill", "lightBlue")
+      .style("fill", "white")
       .style("stroke", "#111")
       ;
 
 			
 	  var split = [10, 20, 40, 60, 200, 300, 400, 700];
 	  var colors = ["#F7FBFF","#DEEBF7","#C6DBEF","#9ECAE1","#6BAED6","#4292C6","#2171B5","#08519C","#08306B"];
-	  var color = d3.scale.linear().domain([7, 25]).range(["#F7FBFF", "#08306B"]);
+
 	/*  var color = d3.scale.threshold()
 		  .domain(split)
 		  .range(colors);         */
@@ -93,11 +93,19 @@
 
         function plot_points(data) {
 		
+		
+		     var production_max = d3.max(data, function(d) {
+                return +d.Production;});
+			  
+			
+			  
+			  var color = d3.scale.log().domain([1, production_max]).range(
+			  ["#F7FBFF", "#08306B"]);
 			  function update(year) {
            
 			
               d3.select("h2")
-                .text("World Cup " + year);
+                .text("World Coffee Production " + year);
 			
 			
 			  var filtered=data.filter(function(d) {if ( d['Year'] == year){return d;}})
@@ -165,8 +173,7 @@
 
 				/*d3.tsv("CoffeeProductionByCountry.csv", plot_points);*/
 		  d3.csv("coffeeproductionbycountry_unpivoted.csv",function(d)
-		  {  
-		  return d},plot_points);
+		  {return d},plot_points);
     };
     </script>
   </head>
