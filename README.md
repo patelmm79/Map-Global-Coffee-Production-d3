@@ -27,3 +27,7 @@ http://www.ico.org/historical/1990%20onwards/Excel/1a%20-%20Total%20production.x
 into Choropleth
 ** https://github.com/mbostock/d3/wiki/Arrays: reference for array data management
 ** http://thematicmapping.org/playground/d3/d3.slider/ D3 slider guidance
+** http://bl.ocks.org/zanarmstrong/ab12887fd8882490b5ae used for font styling on title and slider
+** http://stackoverflow.com/questions/16211095/how-can-i-get-numeric-values-instead-of-logarthmic-values-in-d3-axis-scale   how to set up log scale legend
+** http://stackoverflow.com/questions/5453370/displaying-one-div-on-top-of-another (to bring tooltip div on top)
+** http://bl.ocks.org/d3noob/5d47df5374d210b6f651  table guidance
