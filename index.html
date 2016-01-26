@@ -86,37 +86,37 @@
   	    var topo = topojson.feature(geo_data, geo_data.objects.countries).features
 		var country = d3.select("#innerg").selectAll(".country").data(topo);
 		
-	  country.enter().insert("path").attr("class", "country")
-      .attr("d", path)
-      .attr("id", function(d,i) { return d.id; })
-	  
-      .attr("title", function(d,i) { return d.properties.name; })
-      .style("fill", "white")
-      .style("stroke", "#111")
-	  .attr("class", "country")
+		    country.enter().insert("path").attr("class", "country")
+					  .attr("d", path)
+					  .attr("id", function(d,i) { return d.id; })
+					  
+					  .attr("title", function(d,i) { return d.properties.name; })
+					  .style("fill", "white")
+					  .style("stroke", "#111")
+					  .attr("class", "country")
 					  .attr("d", path)
 					  .attr("id", function(d,i) { return d.id; })
 					  
 					  .attr("title", function(d,i) { return d.properties.name; }) ;
 	//append table that will show top 10 coffee producers per year
-	var table = d3.select("body").append("table")
+		var table = d3.select("body").append("table")
             .attr("style", "margin-left: 100px")
 			.attr("class","table")
 			.attr("style", "position:absolute; bottom:10px;left:10px"),
-        thead = table.append("thead"),
-        tbody = table.append("tbody");
-		thead.append("th")
+				thead = table.append("thead"),
+				tbody = table.append("tbody");
+				thead.append("th")
 	 // append the header row
 
 
-        function plot_points(data) {
+      function plot_points(data) {
 		
 		      ///take maximum production value from file
-			  var production_max = d3.max(data, function(d) {
+			 var production_max = d3.max(data, function(d) {
                 return +d.Production;});
 			
 			  ////color scale for shading based on logarithmic scale
-			  var color = d3.scale.log().domain([1, production_max]).range(
+			 var color = d3.scale.log().domain([1, production_max]).range(
 					["white", /*"#08306B"*/"#2B0F0E"]);
 					
 		  function update(year) {
@@ -125,20 +125,20 @@
 
 
 			  //filter data for specified year
-			  var filtered=data.filter(function(d) {if ( d['Year'] == year){return d;}})
-			  var filteredsorted = filtered.sort(function(a,b) { 
+			 var filtered=data.filter(function(d) {if ( d['Year'] == year){return d;}})
+			 var filteredsorted = filtered.sort(function(a,b) { 
                   return d3.descending(+a.Production,+b.Production);});  
 				  
 			
-			  var ProductionByID=d3.map();
+			 var ProductionByID=d3.map();
 			  
 			  //select ISO and ID data from filtered data
-			  filtered.forEach(function(f) {
+				 filtered.forEach(function(f) {
 					ProductionByID.set(f['ID'],f['Production']);
 					});
 			  
 			  
-			  var countryset = d3.set();
+			 var countryset = d3.set();
 				  filtered.forEach(function(d) {
                   countryset.add(d['ID']);});
 			
@@ -146,70 +146,60 @@
 			
 			  //update country fill to map, and update tooltip to allow for display of Production
 			  //upon mouse rollover
-			  country.attr("production", function(d){
+			      country.attr("production", function(d){
 							 if(countryset.values().indexOf(d.properties.iso) !== -1) {
 							 return ProductionByID.get(d.properties.iso);}
 							 else {return 0}})
-					  .style("fill", function(d){
+						 .style("fill", function(d){
 							 if(countryset.values().indexOf(d.properties.iso) !== -1) {
 							 return color(ProductionByID.get(d.properties.iso));}
 							 else {return color(0)}})
-					  .on("mousemove", function(d,i) {
+						 .on("mousemove", function(d,i) {
 								  var mouse = d3.mouse(svg.node()).map( function(d) { return parseInt(d); } );
 								  var pop = ' | Production: '+parseInt(ProductionByID.get(d.properties.iso))+'  thousand 60kg bags';
 
 								  tooltip.classed("hidden", false)
-				  .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
-				  .html(d.properties.name+pop);})
-				  .on("mouseout",  function(d,i) {
-				      tooltip.classed("hidden", true);});
-					  
-					  
+						 .attr("style", "left:"+(mouse[0]+offsetL)+"px;top:"+(mouse[1]+offsetT)+"px")
+						 .html(d.properties.name+pop);})
+						 .on("mouseout",  function(d,i) {
+						    tooltip.classed("hidden", true);});
+						  
 			 // Add rows to table containing production data
-				function tabulate(data, columns) {
+			function tabulate(data, columns) {
 							d3.selectAll("tr").remove();
-   /* var table = d3.select("body").append("table")
-            .attr("style", "margin-left: 250px")
-			.attr("class","table")
-			.attr("style", "position:absolute; bottom:20px;left:20px"),
-        thead = table.append("thead"),
-        tbody = table.append("tbody");*/
-		
-			 // append the header row
+
     
-	     thead.select("th")
-			.text("Top 10 Producers for "+year).attr("class","columnsclass").attr("colspan",2)
-		 thead.append("tr")
-		
-        .selectAll("th")
-		
-        .data(columnlist)
-        .enter()
-        .append("th").attr("width",130)
-            .text(function(column) { return column; });
+					 thead.select("th")
+						.text("Top 10 Producers for "+year).attr("class","columnsclass").attr("colspan",2)
+					 thead.append("tr")
+						  .selectAll("th")
+						  .data(columnlist)
+						  .enter()
+						  .append("th").attr("width",130)
+						  .text(function(column) { return column; });
 
  
 
     // create a row for each object in the data
-    var rows = tbody.selectAll("tr")
-        .data(data)
-        .enter()
-        .append("tr")
-		.attr("class","dataitems");
+     				var rows = tbody.selectAll("tr")
+						.data(data)
+						.enter()
+						.append("tr")
+						.attr("class","dataitems");
 
     // create a cell in each row for each column
-    var cells = rows.selectAll("td")
-        .data(function(row) {
-            return columns.map(function(column) {
-                return {column: column, value: row[column]};
-            });
-        })
-        .enter()
-        .append("td")
-        .attr("style", "font-family: Raleway") // sets the font style
-            .html(function(d) { return d.value; });
+				    var cells = rows.selectAll("td")
+						.data(function(row) {
+							return columns.map(function(column) {
+								return {column: column, value: row[column]};
+							});
+						})
+						.enter()
+						.append("td")
+						.attr("style", "font-family: Raleway") // sets the font style
+							.html(function(d) { return d.value; });
     
-    return table;
+		return table;
 			}
 
 		// render the table
@@ -224,29 +214,25 @@
 				.axis(true).min(1990).max(2014).step(1)
 				.on("slide", function( evt,value) { 
 							update(value);}));
- 			     var w = 140, h = 400;
+ 			                var w = 140, h = 400;
 
 			//set up legend on upper left
 			var key = d3.select("body").append("svg").attr("id", "key").attr("width", w).attr("height", h).attr("style", "position:absolute; top:20px; right:20px");
 
 			var legend = key.append("defs").append("svg:linearGradient").attr("id", "gradient").attr("x1", "100%").attr("y1", "0%").attr("x2", "100%").attr("y2", "100%").attr("spreadMethod", "pad");
+				legend.append("stop").attr("offset", "0%").attr("stop-color", "#2B0F0E").attr("stop-opacity", 1);
+				legend.append("stop").attr("offset", "100%").attr("stop-color", "white").attr("stop-opacity", 1);
 
-			legend.append("stop").attr("offset", "0%").attr("stop-color", "#2B0F0E").attr("stop-opacity", 1);
-
-			legend.append("stop").attr("offset", "100%").attr("stop-color", "white").attr("stop-opacity", 1);
-
-			key.append("rect").attr("width", w - 100).attr("height", h - 100).style("fill", "url(#gradient)").attr("transform", "translate(0,10)");
+				key.append("rect").attr("width", w - 100).attr("height", h - 100).style("fill", "url(#gradient)").attr("transform", "translate(0,10)");
 
 			var y = d3.scale.log().range([300, 0]).domain([1, 50000]);
 
-			
-
 			var yAxis = d3.svg.axis();
-			yAxis.scale(y).orient("right").tickFormat
-			(function (d) {return y.tickFormat(4,d3.format(",d"))(d)});
-			key.append("g").attr("class", "yaxis").attr("transform", "translate(41,10)").call(yAxis).append("text").attr("transform", "rotate(-90)").attr("y", 30).attr("dy", "2.75em").style("text-anchor", "end").text("thousand 60kg bags");
-			//end legend
-			}
+				yAxis.scale(y).orient("right").tickFormat
+      					(function (d) {return y.tickFormat(4,d3.format(",d"))(d)});
+						key.append("g").attr("class", "yaxis").attr("transform", "translate(41,10)").call(yAxis).append("text").attr("transform", "rotate(-90)").attr("y", 30).attr("dy", "2.75em").style("text-anchor", "end").text("thousand 60kg bags");
+					//end legend
+					}
 
 		  d3.csv("coffeeproductionbycountry_unpivoted.csv",function(d)
 		  {return d},plot_points);
