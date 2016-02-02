@@ -25,7 +25,7 @@ for specification of the year, to select the coffee production per country for t
 
 Initial design was specified in included file index_basic.html.
 
-The base map that I used (http://techslides.com/demos/d3/d3-world-population-density.html).  
+The base reference map that I used (http://techslides.com/demos/d3/d3-world-population-density.html).  
 Specifically,  I sourced the topojson methods of using map data and integrating production 
 data onto the map. I also sourced the tooltip code to allow for display of specific 
 production data upon rolling over the cursor over the country.
