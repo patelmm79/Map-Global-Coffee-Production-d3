@@ -74,7 +74,8 @@ length of the longest country name.
 * Users suggested ways to make the d3 slider more elegant, including making the sliding 
 bar and sliding handle to be skinnier.
 
-Resources
+Resources:
+
 **http://techslides.com/demos/d3/d3-world-population-density.html: base for creation of World choropleth
 http://www.ico.org/historical/1990%20onwards/Excel/1a%20-%20Total%20production.xlsx : source of coffee production data
 
