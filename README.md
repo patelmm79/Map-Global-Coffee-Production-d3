@@ -14,7 +14,8 @@ I hope that certain findings are clear to users of this data:
 2) Most countries have not significantly changed level of production; the most notable exception
 to this rule is Vietnam, which in 1990 was not even amongst the top 10 global producers, but
 ranked #2 on the list in 2014--even ahead of Colombia, whose name is synonymous with coffee
-and had the #2 position in 2014.
+and had the #2 position in 1990.
+
 
 
 Design:
@@ -50,6 +51,10 @@ and also very clearly understand the relative production (and change of producti
 Styling choices based on feedback was to select a different font from the default, and to
 stylize the slider bar for a skinnier look.
 
+Finally, I created a guided tour via a series of text boxes, that select certain years and explains
+the most significant aspects of the changes of data, while highlighting selected countries 
+in the data table and country borders.
+
 Feedback:
 
 Feedback that I received included as follows:
@@ -73,6 +78,9 @@ length of the longest country name.
 
 * Users suggested ways to make the d3 slider more elegant, including making the sliding 
 bar and sliding handle to be skinnier.
+
+* First Udacity reviewer indicated that my initial code was only exploratory, not explanatory.
+So I added components to make it explanatory.
 
 Resources:
 
