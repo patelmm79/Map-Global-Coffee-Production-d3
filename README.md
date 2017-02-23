@@ -1,9 +1,14 @@
+
 Summary:
 
 My data visualization sources coffee production data by country and by year from 1990-2014
  from the International Coffee Organization, and create a world choropleth map to visualize
  coffee production over time, year-by-year.  The objective of this map is to trace the evolution 
  of coffee production by country over that time period.  
+
+Visualization:
+
+http://rawgit.com/patelmm79/Map-Global-Coffee-Production-d3/master/index.html
 
 
 Overview:
